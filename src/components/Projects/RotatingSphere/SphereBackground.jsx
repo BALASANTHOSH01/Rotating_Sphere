@@ -27,7 +27,7 @@ const SphereBackground = () => {
 
   return (
     <mesh ref={ref}>
-      <sphereGeometry args={[150, 40, 40]} />
+      <sphereGeometry args={[120, 40, 40]} />
       <meshBasicMaterial map={texture} side={BackSide} />
     </mesh>
   );
