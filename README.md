@@ -1,8 +1,23 @@
-# React + Vite
+# Rotating Sphere
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Welcome to **Rotating Sphere**, my inaugural 3D project crafted for my internship at **Infomarki**. This project features a captivating 3D sphere that rotates dynamically, built using **React Three Fiber (R3F)**. Explore this visual marvel and see how modern web technologies bring 3D graphics to life!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- **Dynamic Rotation**: A 3D sphere that continuously rotates, creating a mesmerizing visual effect.
+- **Interactive Experience**: The scene responds to cursor movements, enhancing user interaction.
+- **Modern Tech Stack**: Utilizes React Three Fiber for smooth and efficient 3D rendering.
+- **Responsive Design**: Adaptable to various screen sizes and devices for a seamless experience.
+
+## 🌐 Live Demo
+
+Experience the rotating sphere in action on the live site:  
+[Rotating Sphere](https://rotating-sphere.vercel.app/)
+
+## ⚙️ Technologies Used
+
+- **React Three Fiber (R3F)**: A React renderer for Three.js, enabling powerful 3D graphics in React applications.
+- **Three.js**: The underlying 3D graphics library that powers the scene.
+- **Vercel**: Provides fast and reliable deployment for the web application.
