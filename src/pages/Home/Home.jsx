@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <NavBar />
+        
         <div id="canvas_container" className="w-full h-screen">
           <RotatingSphere />
         </div>
