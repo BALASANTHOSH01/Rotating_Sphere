@@ -2,9 +2,9 @@ import React, { useRef, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { TextureLoader, IcosahedronGeometry, MeshPhongMaterial, Vector3 } from 'three';
 import { useLoader } from '@react-three/fiber';
-import {createNoise3D} from 'simplex-noise';
+import { createNoise3D } from 'simplex-noise';
 
-const noise = new createNoise3D();
+const noise = createNoise3D();
 const blobScale = 3;
 
 const Nucleus = () => {
@@ -54,7 +54,9 @@ const Nucleus = () => {
     geometry.computeVertexNormals();
   });
 
-  return <mesh ref={ref} geometry={geometry} material={material} />;
+  return (
+    <mesh ref={ref} geometry={geometry} material={material} />
+  );
 };
 
 export default Nucleus;

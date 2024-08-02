@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../../components/NavBar/NavBar";
 import "../../index.css";
 import RotatingSphere from "../../components/Projects/RotatingSphere/RotatingSphere";
 
